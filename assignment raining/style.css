@@ -1,0 +1,114 @@
+@font-face{
+    font-family: onefont ;
+    src: url(./font/zenzai_itacha/Zenzai\ Itache.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+section h1{
+    margin: -20px;
+    left: 200px;
+    position: absolute ;
+    color: white;
+    font-size: 100px;
+    font-family: onefont;
+}
+
+section{
+    position: relative;
+    width: 1350px;
+    height: 750px; 
+    background: url(./lightning.jpg);
+    background-size: cover;
+}
+
+section:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./rain\ \(1\).png);
+    animation: rain 0.8s linear infinite;
+}
+
+@keyframes rain{
+    0%
+    {
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 20% 100%;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@font-face{
+    font-family: onefont ;
+    src: url(./font/zenzai_itacha/Zenzai\ Itache.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background: url(./lightning.jpg);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+}
+.rain{
+    background: url(./rain.png);
+}
+
+ 
+#main {
+position: relative;
+color: white;
+font-size: 100px;
+font-family: onefont;
+}
+
+#main h1{
+    position: absolute ;
+    top: 8px;
+    left: 15px;
+} */
+
